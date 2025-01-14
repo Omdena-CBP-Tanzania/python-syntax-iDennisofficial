@@ -86,7 +86,7 @@ def arithmetic_ops(a, b):
         dict: Results of arithmetic operations
     """
     try:
-        quotient =  a / b
+        quotient = a / b
     except ZeroDivisionError:
 
         quotient = "Undefined (division by zero)"
@@ -124,4 +124,8 @@ def bitwise_ops(a, b):
     Returns:
         dict: Results of bitwise operations
     """
-    pass
+    return {
+        "and": a & b,
+        "or": a | b,
+        "xor": a ^ b
+    }
