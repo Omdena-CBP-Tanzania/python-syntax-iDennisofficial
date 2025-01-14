@@ -85,7 +85,18 @@ def arithmetic_ops(a, b):
     Returns:
         dict: Results of arithmetic operations
     """
-    pass
+    try:
+        quotient =  a / b
+    except ZeroDivisionError:
+
+        quotient = "Undefined (division by zero)"
+
+    return {
+        "sum": a + b,
+        "difference": a - b,
+        "product": a * b,
+        "quotient": quotient
+    }
 
 
 def logical_ops(x, y):
