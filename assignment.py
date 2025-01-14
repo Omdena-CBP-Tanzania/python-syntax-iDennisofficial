@@ -7,7 +7,8 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    pass
+    return f"My name is {name} and I am {age} years old"
+
 
 def conditional_check(number):
     """
@@ -17,7 +18,8 @@ def conditional_check(number):
     Returns:
         str: "Greater", "Lesser", or "Equal"
     """
-    pass
+
+
 
 def loop_sum(n):
     """
@@ -29,6 +31,7 @@ def loop_sum(n):
     """
     pass
 
+
 def list_operations(numbers):
     """
     Perform operations on a list of numbers.
@@ -39,6 +42,7 @@ def list_operations(numbers):
     """
     pass
 
+
 def dict_operations(students_dict):
     """
     Find students with scores above 80.
@@ -48,6 +52,7 @@ def dict_operations(students_dict):
         list: Names of students with scores > 80
     """
     pass
+
 
 def set_operations(list1, list2):
     """
@@ -60,6 +65,7 @@ def set_operations(list1, list2):
     """
     pass
 
+
 def arithmetic_ops(a, b):
     """
     Perform arithmetic operations.
@@ -71,6 +77,7 @@ def arithmetic_ops(a, b):
     """
     pass
 
+
 def logical_ops(x, y):
     """
     Perform logical operations.
@@ -81,6 +88,7 @@ def logical_ops(x, y):
         dict: Results of logical operations
     """
     pass
+
 
 def bitwise_ops(a, b):
     """
