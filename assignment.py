@@ -18,6 +18,12 @@ def conditional_check(number):
     Returns:
         str: "Greater", "Lesser", or "Equal"
     """
+    if number > 10:
+        return "Greater"
+    elif number < 10:
+        return "Lesser"
+    else:
+        return "Equal"
 
 
 
