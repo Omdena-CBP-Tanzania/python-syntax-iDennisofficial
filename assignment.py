@@ -37,8 +37,7 @@ def loop_sum(n):
     summation = 0
 
     for i in range(1, n + 1):
-
-        summation += 1
+        summation += i
 
     return summation
 
@@ -62,7 +61,7 @@ def dict_operations(students_dict):
     Returns:
         list: Names of students with scores > 80
     """
-    pass
+    return [name for name, score in students_dict.items() if score > 80]
 
 
 def set_operations(list1, list2):
