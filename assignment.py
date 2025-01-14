@@ -51,7 +51,7 @@ def list_operations(numbers):
     Returns:
         tuple: (sum, max, min)
     """
-    pass
+    return sum(numbers), max(numbers), min(numbers)
 
 
 def dict_operations(students_dict):
